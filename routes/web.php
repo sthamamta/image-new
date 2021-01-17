@@ -27,3 +27,4 @@ Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
+// Route::match(['get', 'post'],'/admin/login','App\Http\Controllers\LoginController@login')->name('admin.login')->middleware('guest');
